@@ -13,3 +13,5 @@ while i == 1:
     if(var[0] == 'd'): 
         try: print(d2b(var))
         except: print('err')
+    if(var[0] == 'e'):
+        exit(1)
