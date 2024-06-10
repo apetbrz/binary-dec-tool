@@ -20,12 +20,12 @@ while i == 1:
 
     if(var[0] == "b"):
 
-        if(var.find('+')):
+        if(var.find('+') != -1):
             try: print(badd(var))
             except: print('err')
             continue
         
-        if(var.find('-')):
+        if(var.find('-') != -1):
             try: print(bsub(var))
             except: print('err')
             continue
