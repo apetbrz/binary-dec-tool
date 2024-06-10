@@ -5,11 +5,11 @@ def d2b(input):
     return ("" + '{0:#b}'.format(int(input[1:])))[1:]
 
 def badd(input):
-    index = var.find('+')
+    index = input.find('+')
     return ("" + '{0:#b}'.format(int(input[1:index], 2) + int(input[(index+1):], 2)))[1:]
 
 def bsub(input):
-    index = var.find('-')
+    index = input.find('-')
     return ("" + '{0:#b}'.format(int(input[1:index], 2) - int(input[(index+1):], 2)))[1:]
 
 i = 1
